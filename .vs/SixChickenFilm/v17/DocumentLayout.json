@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|d:\\fpt_thaiiha\\cn5\\prn212\\project\\sixchickenfilm\\sixchickenfilm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|solutionrelative:sixchickenfilm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|d:\\fpt_thaiiha\\cn5\\prn212\\project\\sixchickenfilm\\sixchickenfilm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|solutionrelative:sixchickenfilm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|d:\\fpt_thaiiha\\cn5\\prn212\\project\\sixchickenfilm\\sixchickenfilm\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|solutionrelative:sixchickenfilm\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|d:\\fpt_thaiiha\\cn5\\prn212\\project\\sixchickenfilm\\sixchickenfilm\\models\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|solutionrelative:sixchickenfilm\\models\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|d:\\fpt_thaiiha\\cn5\\prn212\\project\\sixchickenfilm\\sixchickenfilm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|solutionrelative:sixchickenfilm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|d:\\fpt_thaiiha\\cn5\\prn212\\project\\sixchickenfilm\\sixchickenfilm\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FB88AEFA-9AE3-4B9F-A1BA-81D4CBF75C62}|SixChickenFilm\\SixChickenFilm.csproj|solutionrelative:sixchickenfilm\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +43,83 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\Program.cs",
+              "RelativeDocumentMoniker": "SixChickenFilm\\Program.cs",
+              "ToolTip": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\Program.cs",
+              "RelativeToolTip": "SixChickenFilm\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:35:28.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "SixChickenFilm\\Models\\Movie.cs",
+              "ToolTip": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\Models\\Movie.cs",
+              "RelativeToolTip": "SixChickenFilm\\Models\\Movie.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:31:23.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovieDbContext.cs",
+              "DocumentMoniker": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\Models\\MovieDbContext.cs",
+              "RelativeDocumentMoniker": "SixChickenFilm\\Models\\MovieDbContext.cs",
+              "ToolTip": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\Models\\MovieDbContext.cs",
+              "RelativeToolTip": "SixChickenFilm\\Models\\MovieDbContext.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:31:15.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\appsettings.json",
+              "RelativeDocumentMoniker": "SixChickenFilm\\appsettings.json",
+              "ToolTip": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\appsettings.json",
+              "RelativeToolTip": "SixChickenFilm\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-28T07:04:38.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "SixChickenFilm\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "SixChickenFilm\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-28T02:52:30.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SixChickenFilm\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\FPT_Thaiiha\\CN5\\PRN212\\Project\\SixChickenFilm\\SixChickenFilm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SixChickenFilm\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T02:20:13.901Z"
             }
           ]
         }

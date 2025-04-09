@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SixChickenFilm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9487fac211cb71a6465bda1a17e828a217b60156")]
 [assembly: System.Reflection.AssemblyProductAttribute("SixChickenFilm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SixChickenFilm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

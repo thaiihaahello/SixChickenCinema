@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Affiliate</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/sidebar.css">
+    <link rel="stylesheet" href="~/css/adminScreen.css">
+</head>
+<body>
+    <div class="container-flex">
+        <div class="sidebar">
+            <a href="/">Quản lý phim</a>
+            <a href="#">Quản lý lịch chiếu</a>
+            <a href="#">Quản lý phòng chiếu</a>
+            <a href="/Home/AdminManageShowtime">Quản lý suất chiếu</a>
+            <a href="/Home/AdminManageTicket">Quản lý vé</a>
+            <a href="/Home/AdminManagePromotion">Quản lý khuyến mãi</a>
+            <a href="/Home/AdminManageAffiliate" class="active">Quản lý affiliate</a>
+            <a href="#" class="logout">Đăng xuất</a>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h2 class="mb-4">Quản lý Affiliate</h2>
+
+            <div class="statistics-container mb-4">
+                <div class="stat-box">
+                    <div class="stat-title">Tổng số Affiliate đang hoạt động</div>
+                    <div class="stat-value">20</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-title">Tổng doanh thu từ Affiliate</div>
+                    <div class="stat-value">2.000.000 VND</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-title">Tổng hoa hồng cần thanh toán</div>
+                    <div class="stat-value">2.000.000 VND</div>
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Tên</th>
+                            <th>Link</th>
+                            <th>Lượt click</th>
+                            <th>Số vé bán</th>
+                            <th>Hoa hồng (%)</th>
+                            <th>Doanh thu</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example Row -->
+                        <tr>
+                            <td>1</td>
+                            <td>Nguyễn Đình Thái Hà</td>
+                            <td>http://abcxyz</td>
+                            <td>500</td>
+                            <td>200</td>
+                            <td>30%</td>
+                            <td>2.000.000</td>
+                            <td class="action-buttons">
+                                <button class="btn btn-sm btn-warning">Sửa</button>
+                                <button class="btn btn-sm btn-danger">Xóa</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Nguyễn Đình Thái Hà</td>
+                            <td>http://abcxyz</td>
+                            <td>500</td>
+                            <td>200</td>
+                            <td>30%</td>
+                            <td>2.000.000</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Sửa</button>
+                                <button class="btn btn-danger btn-sm">Xóa</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Nguyễn Đình Thái Hà</td>
+                            <td>http://abcxyz</td>
+                            <td>500</td>
+                            <td>200</td>
+                            <td>30%</td>
+                            <td>2.000.000</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Sửa</button>
+                                <button class="btn btn-danger btn-sm">Xóa</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Nguyễn Đình Thái Hà</td>
+                            <td>http://abcxyz</td>
+                            <td>500</td>
+                            <td>200</td>
+                            <td>30%</td>
+                            <td>2.000.000</td>
+                            <td>
+                                <button class="btn btn-warning btn-sm">Sửa</button>
+                                <button class="btn btn-danger btn-sm">Xóa</button>
+                            </td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+

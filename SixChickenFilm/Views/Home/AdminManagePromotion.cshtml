@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Khuyến Mãi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/sidebar.css">
+    <link rel="stylesheet" href="~/css/popup.css">
+    <link rel="stylesheet" href="~/css/adminScreen.css">
+</head>
+<body>
+    <div class="container-flex">
+        <div class="sidebar">
+            <a href="/">Quản lý phim</a>
+            <a href="#">Quản lý lịch chiếu</a>
+            <a href="#">Quản lý phòng chiếu</a>
+            <a href="/Home/AdminManageShowtime">Quản lý suất chiếu</a>
+            <a href="/Home/AdminManageTicket">Quản lý vé</a>
+            <a href="/Home/AdminManagePromotion" class="active">Quản lý khuyến mãi</a>
+            <a href="/Home/AdminManageAffiliate">Quản lý affiliate</a>
+            <a href="#" class="logout">Đăng xuất</a>
+        </div>
+
+        <div class="main-content">
+            <h2 class="mb-4">Quản lý Khuyến Mãi</h2>
+
+            <div class="statistics-container">
+                <div class="stat-box">
+                    <div class="stat-title">Tổng số khuyến mãi</div>
+                    <div class="stat-value">10</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-title">Khuyến mãi đang hoạt động</div>
+                    <div class="stat-value">7</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-title">Khuyến mãi đã hết hạn</div>
+                    <div class="stat-value">3</div>
+                </div>
+            </div>
+
+            <div class="btn-group-custom">
+                <button class="btn btn-secondary">Quay lại</button>
+                <button id="create-pu-btn" class="btn btn-success">+ Tạo khuyến mãi</button>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Mã khuyến mãi</th>
+                            <th>Phần trăm giảm</th>
+                            <th>Số lượng</th>
+                            <th>Đã dùng</th>
+                            <th>Giá trị tối đa</th>
+                            <th>Trạng thái</th>
+                            <th>Thời gian</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HAPPY</td>
+                            <td>30%</td>
+                            <td>200</td>
+                            <td>100</td>
+                            <td>100,000</td>
+                            <td>Hoạt động</td>
+                            <td>11/05/2024 - 20/05/2024</td>
+                            <td class="action-buttons">
+                                <button class="btn btn-warning btn-sm">Sửa</button>
+                                <button class="btn btn-danger btn-sm">Xóa</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>SUMMER</td>
+                            <td>25%</td>
+                            <td>150</td>
+                            <td>70</td>
+                            <td>80,000</td>
+                            <td>Hết hạn</td>
+                            <td>01/04/2024 - 10/04/2024</td>
+                            <td class="action-buttons">
+                                <button class="btn btn-warning btn-sm">Sửa</button>
+                                <button class="btn btn-danger btn-sm">Xóa</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>NEWUSER</td>
+                            <td>20%</td>
+                            <td>300</td>
+                            <td>120</td>
+                            <td>50,000</td>
+                            <td>Hoạt động</td>
+                            <td>01/05/2024 - 31/05/2024</td>
+                            <td class="action-buttons">
+                                <button class="btn btn-warning btn-sm">Sửa</button>
+                                <button class="btn btn-danger btn-sm">Xóa</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <form>
+                <label for="promotion">Tên mã khuyến mãi:</label>
+                <input type="text" id="promotion" name="promotion" placeholder="Nhập tên mã" required>
+
+                <label for="percent">Phần trăm trừ:</label>
+                <input type="number" id="percent" name="percent" placeholder="Nhập phần trăm trừ" required>
+
+                <label for="numberpromotion">Số lượng mã:</label>
+                <input type="number" id="numberpromotion" name="numberpromotion" placeholder="Nhập số lượng mã" required>
+
+                <label for="value">Giá trị tối đa:</label>
+                <input type="number" id="value" name="value" placeholder="Nhập giá trị" required>
+
+                <label for="type">Trạng thái:</label>
+                <select id="type" name="type">
+                    <option value="active">Hoạt động</option>
+                    <option value="inactive">Hết hạn</option>
+                </select>
+
+                <div class="time-selection">
+                    <div class="time-group">
+                        <label for="start-time">Giờ bắt đầu:</label>
+                        <input type="time" id="start-time" name="start-time" required>
+                    </div>
+                    <div class="time-group">
+                        <label for="end-time">Giờ kết thúc:</label>
+                        <input type="time" id="end-time" name="end-time" required>
+                    </div>
+                </div>
+
+                <div class="popup-buttons">
+                    <button type="submit" class="btn btn-success">Tạo</button>
+                    <button type="button" class="btn btn-secondary" id="close-popup">Đóng</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const openTicketPopup = document.getElementById('create-pu-btn'); // Nút mở popup
+        const ticketPopup = document.getElementById('popup'); // Popup chính
+        const closeTicketPopup = document.getElementById('close-popup'); // Nút đóng popup
+
+        // Mở popup
+        if (openTicketPopup) {
+            openTicketPopup.addEventListener('click', () => {
+                ticketPopup.classList.add('active'); // Thêm lớp active để hiển thị popup
+            });
+        }
+
+        // Đóng popup
+        if (closeTicketPopup) {
+            closeTicketPopup.addEventListener('click', () => {
+                ticketPopup.classList.remove('active'); // Xóa lớp active để ẩn popup
+            });
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

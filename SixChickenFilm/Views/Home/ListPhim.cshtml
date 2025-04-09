@@ -1,0 +1,352 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout - Main.cshtml";
+}
+
+   <!-- Container -->
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="tabs">
+                <div class="tab active" data-filter="all">Tất cả phim</div>
+                <div class="tab" data-filter="dang-chieu">Đang chiếu</div>
+                <div class="tab" data-filter="sap-chieu">Sắp chiếu</div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie List - Tất cả phim -->
+    <div class="movie-list default">
+        <div class="row movie-list-item2">
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/ADL-poster-doc.jpg" alt="Âm Dương Lộ" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Âm Dương Lộ</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/DĐ-poster-doc.jpg" alt="Địa đạo" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Địa đạo: Mặt trời trong bóng tối</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/HATH-poster-doc.jpg" alt="Huyết án truy hành" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Huyết án truy hành</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/ITS-poster-doc.jpg" alt="Interstellar" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Interstellar</div>
+                </div>
+            </div>
+
+            <!-- Hàng thứ hai của phim -->
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/MV-poster-doc.jpg" alt="Mật vụ" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Mật vụ</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/QNT-poster-doc.jpg" alt="Quỷ nhập tràng" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Quỷ nhập tràng</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/SW-poster-doc.jpg" alt="Snow white" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Snow white</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/TND-poster-doc.jpg" alt="Tay nghiệp dư" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Tay nghiệp dư</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- List đang chiếu -->
+    <div class="movie-list hidden" id="dang-chieu">
+        <div class="row movie-list-item2">
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/ADL-poster-doc.jpg" alt="Âm Dương Lộ" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Âm Dương Lộ</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/DĐ-poster-doc.jpg" alt="Địa đạo" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Địa đạo: Mặt trời trong bóng tối</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/HATH-poster-doc.jpg" alt="Huyết án truy hành" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Huyết án truy hành</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/ITS-poster-doc.jpg" alt="Interstellar" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Interstellar</div>
+                </div>
+            </div>
+
+            <!-- Hàng thứ hai của phim -->
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/MV-poster-doc.jpg" alt="Mật vụ" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Mật vụ</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/QNT-poster-doc.jpg" alt="Quỷ nhập tràng" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Quỷ nhập tràng</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/SW-poster-doc.jpg" alt="Snow white" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Snow white</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/TND-poster-doc.jpg" alt="Tay nghiệp dư" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Tay nghiệp dư</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- List sắp chiếu -->
+    <div class="movie-list hidden" id="sap-chieu">
+        <div class="row movie-list-item2">
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/ADL-poster-doc.jpg" alt="Âm Dương Lộ" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Âm Dương Lộ</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/DĐ-poster-doc.jpg" alt="Địa đạo" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Địa đạo: Mặt trời trong bóng tối</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/HATH-poster-doc.jpg" alt="Huyết án truy hành" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Huyết án truy hành</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/ITS-poster-doc.jpg" alt="Interstellar" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Interstellar</div>
+                </div>
+            </div>
+
+            <!-- Hàng thứ hai của phim -->
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/MV-poster-doc.jpg" alt="Mật vụ" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Mật vụ</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/QNT-poster-doc.jpg" alt="Quỷ nhập tràng" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Quỷ nhập tràng</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/SW-poster-doc.jpg" alt="Snow white" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Snow white</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="movie-item">
+                    <div class="poster-container">
+
+                        <img src="~/image/TND-poster-doc.jpg" alt="Tay nghiệp dư" />
+                        <div class="movie-overlay">
+                            <button class="buy-button">Mua vé</button>
+                            <button class="chitietphim-button">Chi tiết phim</button>
+                        </div>
+                    </div>
+                    <div class="movie-name">Tay nghiệp dư</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

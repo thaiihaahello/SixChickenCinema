@@ -23,6 +23,30 @@ namespace SixChickenFilm.Controllers
             return View();
         }
 
+        public IActionResult AdminManageShowtime()
+        {
+            return View();
+        }
+        public IActionResult AdminManagePromotion()
+        {
+            return View();
+        }
+
+        public IActionResult AdminManageTicket()
+        {
+            return View();
+        }
+
+        public IActionResult AdminManageAffiliate()
+        {
+            return View();
+        }
+
+        public IActionResult AdminManageDiary()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

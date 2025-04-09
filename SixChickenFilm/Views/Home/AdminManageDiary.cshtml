@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhật ký hệ thống</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container-flex {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 220px;
+            background-color: #f1f1f1;
+            border-right: 1px solid #ccc;
+            padding: 20px 10px;
+        }
+
+            .sidebar a {
+                display: block;
+                padding: 10px 15px;
+                color: #000;
+                text-decoration: none;
+                border-radius: 5px;
+                margin-bottom: 5px;
+            }
+
+                .sidebar a:hover,
+                .sidebar .active {
+                    background-color: #e0e0e0;
+                }
+
+        .logout {
+            display: block;
+            margin-top: 40px;
+            color: red;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .log-container {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .log-date {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .log-entry {
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-flex">
+        <div class="sidebar">
+            <a href="#">Quản lý tài khoản</a>
+            <a href="#">Quản lý bình luận</a>
+            <a href="/Home/AdminManageDiary" class="active">Nhật ký hệ thống</a>
+            <a href="#">Quản lý rạp chiếu</a>
+            <a href="#" class="logout">Đăng xuất</a>
+        </div>
+
+        <div class="main-content">
+            <h2>Nhật ký hệ thống</h2>
+
+            <div class="log-container">
+                <div class="log-date">Ngày 5 tháng 3, 2025</div>
+                <div class="log-entry">19:55 - customer1 đã đăng nhập.</div>
+                <div class="log-entry">19:56 - reviewer1 đã đăng bài viết.</div>
+                <div class="log-entry">20:55 - customer1 đã đăng xuất.</div>
+                <div class="log-entry">20:56 - customer1 đã đăng nhập.</div>
+            </div>
+
+            <div class="log-container">
+                <div class="log-date">Ngày 6 tháng 3, 2025</div>
+                <div class="log-entry">19:55 - customer1 đã đăng nhập.</div>
+                <div class="log-entry">19:56 - reviewer đã đăng bài viết.</div>
+                <div class="log-entry">20:55 - customer1 đã đăng xuất.</div>
+                <div class="log-entry">20:56 - customer1 đã đăng nhập.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

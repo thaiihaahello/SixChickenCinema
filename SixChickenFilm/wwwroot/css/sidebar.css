@@ -1,0 +1,29 @@
+﻿
+.sidebar {
+    width: 220px;
+    background-color: #f1f1f1;
+    border-right: 1px solid #ccc;
+    padding: 20px 10px;
+}
+
+    .sidebar a {
+        display: block;
+        padding: 10px 15px;
+        color: #000;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+
+        .sidebar a:hover,
+        .sidebar .active {
+            background-color: #e0e0e0;
+        }
+
+.logout {
+    display: block;
+    margin-top: 40px;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+}
